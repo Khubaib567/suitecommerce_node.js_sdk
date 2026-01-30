@@ -4,7 +4,7 @@
   "description": "",
   "main": "suitecloud.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/Khubaib567/suitecommerce_node.js_sdk/issues"
   },
-  "homepage": "https://github.com/Khubaib567/suitecommerce_node.js_sdk#readme"
+  "homepage": "https://github.com/Khubaib567/suitecommerce_node.js_sdk#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-xml": "^1.0.5"
+  },
+  "devDependencies": {
+    "del": "^8.0.1",
+    "fast-xml-parser": "^5.3.4",
+    "gulp": "^5.0.1",
+    "through2": "^4.0.2"
+  }
 }

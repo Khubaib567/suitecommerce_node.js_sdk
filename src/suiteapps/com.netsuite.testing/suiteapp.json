@@ -1,0 +1,15 @@
+{
+  "suiteAppId": "com.netsuite.testing",
+  "name": "Testing SuiteApp",
+  "version": "1.0.0",
+  "type": "SUITEAPP",
+  "entryPoints": {
+    "clientScripts": [
+      "scripts/dsc_cs_checkEmail.js"
+    ]
+  },
+  "installationPreferences": {
+    "overwrite": true,
+    "preserveData": true
+  }
+}

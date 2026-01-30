@@ -19,6 +19,7 @@ node_modules
 logs
 *.log
 npm-debug.log*
+pnpm-lock.yaml
 
 # Packaged SuiteCloud projects
 build
