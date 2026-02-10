@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Khubaib567/suitecommerce_node.js_sdk#readme",
   "dependencies": {
+    "amdefine": "^1.0.1",
     "body-parser": "^2.2.2",
     "express": "^5.2.1",
     "gulp-cheerio": "^1.0.0",

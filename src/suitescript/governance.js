@@ -9,8 +9,8 @@
  * -------------------------------------------------------
  */
 
-const runtime = require('./N/runtime');
-const log = require('./N/log');
+const runtime = require('./N-runtime');
+const log = require('./N-log');
 const javaBridge = require("../api/java.utils")
 
 /**

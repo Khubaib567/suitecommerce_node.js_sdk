@@ -7,10 +7,10 @@
 (function(global) {
 
     // Load Java classes
-    var EmailService = Java.type('com.demo.EmailService');
+    // var EmailService = Java.type('com.demo.EmailService');
 
     // Singleton instance
-    var emailService = new EmailService();
+    // var emailService = new EmailService();
 
     // Export utility functions
     global.JavaBridge = {

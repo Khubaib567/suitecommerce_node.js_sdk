@@ -3,7 +3,7 @@
  * Simulates NetSuite log module
  */
 
-const javaBridge = require("../api/java.utils")
+// const javaBridge = require("../api/java.utils")
 
 
 module.exports = {
@@ -18,10 +18,10 @@ module.exports = {
     },
     emergency: ({ title, details }) => {
         console.error(`[EMERGENCY] ${title} →`, details);
-        javaBridge.generateReport(`LoadFile-${filePath}`);
+        // javaBridge.generateReport(`LoadFile-${filePath}`);
     },
     warn: ({ title, details }) => {
         console.warn(`[WARN] ${title} →`, details);
-        javaBridge.generateReport(`LoadFile-${filePath}`);
+        // javaBridge.generateReport(`LoadFile-${filePath}`);
     }
 };
